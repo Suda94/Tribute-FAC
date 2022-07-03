@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(110deg, #453d3d 50%, #302730 50%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(248, 248, 248, 0.905);
+  font-size: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(194, 240, 244);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+#date {
+  font-family: monospace;
+  font-size: 50px;
+  float: right;
+  color: rgb(178, 177, 177);
+}
+h1 {
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+.pic1 {
+  width: 300px;
+}
+
+.Helloeveryone {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150px;
+  padding-left: 150px;
+  float: inline-end;
+  font-optical-sizing: 50%;
+}
+
+.activites {
+  border: 15px solid;
+}
+
+.meetinPlace {
+  border: 15px solid rgb(0, 129, 242);
+}
+.location {
+  font: 400;
+}
+.boxLetter {
+  font-size: 50px;
+  color: aqua;
+}
