@@ -1,10 +1,13 @@
 body {
-  background: linear-gradient(110deg, #453d3d 50%, #302730 50%);
+  background: linear-gradient(110deg, #b52929 50%, #01094d 50%);
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(248, 248, 248, 0.905);
-  font-size: 25px;
+  color: rgba(255, 255, 255, 0.905);
+  font-size: 20px;
   padding-left: 100px;
   padding-right: 100px;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .sidenav {
@@ -50,12 +53,16 @@ body {
   }
 }
 
+/* date */
+
 #date {
   font-family: monospace;
   font-size: 50px;
   float: right;
   color: rgb(178, 177, 177);
 }
+
+/*moving animation for the second title q*/
 h1 {
   animation-duration: 8s;
   animation-name: slidein;
@@ -74,23 +81,32 @@ h1 {
   }
 }
 .pic1 {
-  width: 300px;
+  width: 20%;
+  display: flex;
+  height: 10%;
+  padding-left: 80%;
 }
 
 .Helloeveryone {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 150px;
-  padding-left: 150px;
+  font-size: 90px;
+  padding: 0px;
+
   float: inline-end;
-  font-optical-sizing: 50%;
+}
+
+.Helloeveryone-1 {
+  font-size: 100px;
 }
 
 .activites {
-  border: 15px solid;
+  border: 10px solid;
+  background-color: rgb(92, 103, 33);
 }
 
 .meetinPlace {
-  border: 15px solid rgb(0, 129, 242);
+  border: 10px solid rgb(0, 129, 242);
+  background-color: #554555;
 }
 .location {
   font: 400;
@@ -98,4 +114,7 @@ h1 {
 .boxLetter {
   font-size: 50px;
   color: aqua;
+  background-color: #150202;
+  text-align: center;
+  margin: auto;
 }
