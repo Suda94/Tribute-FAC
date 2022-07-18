@@ -5,7 +5,11 @@ body {
   font-size: 20px;
   padding-left: 100px;
   padding-right: 100px;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -100,8 +104,10 @@ h1 {
 }
 
 .activites {
-  border: 10px solid;
+  border: 5px solid;
   background-color: rgb(92, 103, 33);
+  padding: 1rem;
+  margin: 0.25em;
 }
 
 .meetinPlace {
