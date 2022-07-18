@@ -10,6 +10,15 @@ body {
   height: 100vh;
 }
 
+html,
+body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -123,4 +132,9 @@ h1 {
   background-color: #150202;
   text-align: center;
   margin: auto;
+}
+.img {
+  align-items: center;
+  width: 20%;
+  height: 10%;
 }
