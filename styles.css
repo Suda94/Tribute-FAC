@@ -1,3 +1,4 @@
+html,
 body {
   background: linear-gradient(110deg, #b52929 50%, #01094d 50%);
   font-family: Arial, Helvetica, sans-serif;
@@ -6,17 +7,6 @@ body {
   padding-left: 100px;
   padding-right: 100px;
   margin: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-html,
-body {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 html {
