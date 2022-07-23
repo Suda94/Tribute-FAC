@@ -77,29 +77,33 @@ h1 {
     margin-left: 0%;
   }
   50% {
-    margin-left: 300px;
+    margin-left: 60%;
   }
   100% {
     margin-left: 0%;
   }
 }
 .pic1 {
-  width: 20%;
-  display: flex;
-  height: 10%;
-  padding-left: 80%;
+  width: 180px;
+  margin-left: 60%;
+  margin-right: auto;
 }
 
 .Helloeveryone {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 90px;
+  font-size: 75px;
   padding: 0px;
 
   float: inline-end;
 }
 
 .Helloeveryone-1 {
-  font-size: 100px;
+  font-size: 70px;
+}
+
+#Helloeveryone1 {
+  position: absolute;
+  font-size: 20px;
 }
 
 .activites {
@@ -107,6 +111,7 @@ h1 {
   background-color: rgb(92, 103, 33);
   padding: 1rem;
   margin: 0.25em;
+  list-style: none;
 }
 
 .meetinPlace {
@@ -127,4 +132,8 @@ h1 {
   align-items: center;
   width: 20%;
   height: 10%;
+}
+
+.loc {
+  padding-left: 6.5rem;
 }
